@@ -8,8 +8,6 @@ from ui.styles import apply_custom_css
 from ui.tab1_application import show_tab1
 from ui.tab2_batch_analysis import show_tab2
 from ui.tab3_lender_audit import show_tab3
-
-# Must be the very first Streamlit command
 st.set_page_config(page_title="XAI Guardian", page_icon="🏦", layout="wide")
 
 def load_data():
